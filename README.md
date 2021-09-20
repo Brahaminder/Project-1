@@ -10,3 +10,7 @@ The website has a home section, about section, services section,package section,
 The user can navigate through the wesbite to get the required information about gym by sitting at his home only.
 
 Ham burger menu is used to make the webiste look more responsive on small screens as well. fav icons have also been used.
+
+### SnapShots
+
+Check Input/Output Photos in SnapShots folder 
