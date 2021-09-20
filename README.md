@@ -13,4 +13,4 @@ Ham burger menu is used to make the webiste look more responsive on small screen
 
 ### SnapShots
 
-Check Input/Output Photos in SnapShots folder 
+Check Input/Output Photos in Snapshots folder 
