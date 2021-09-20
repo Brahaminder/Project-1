@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="icon" href="favicon/faviconpf.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <p>Required fields are followed by "*"</p>
+        <h2>Contact  Info</h2>
+    <hr>
+    <p>Name*: <input type="text" name="name" placeholder="ABC" required></p>
+    <Fieldset>
+        <legend>Gender*</legend>
+        <p>
+    
+             Male <input type="radio" name="Gender" id="" required>
+             Female <input type="radio" name="Gender" id="" required>
+         </p>
+        </Fieldset>
+        <!--<p>Address*: <textarea name="address" id="address" cols="100" rows="7"></textarea required></p>-->
+    <p>Email*: <input type="email" name="email" id="" placeholder="abc@gmail.com" required=""></p>
+    <h2>Payment Info</h2>
+    <hr>
+<p>Card Type*
+    <select name="card-type" required>
+        <option value="">Select Your Card Type</option>
+        <option value="visa" selected>VISA</option>
+        <option data="rupay" type="">Rupay</option>
+        <option value="mastercard">MasterCard</option>
+    </select>
+</p>
+<p>Card No.* <input type="number" name="card no." id="" required placeholder="1111-2222-3333-4444" minlength="16" maxlength="16"></p>
+<p>Exp date*<input type="date" name="exp date" required placeholder="dd/mm/yyyy"></p>
+<p>CVV* <input type="password" name="CVV" required placeholder="123" minlength="3" maxlength="3"></p>
+<button type="Submit" onclick="myFunction3()">Submit</button>
+<script>
+    function myFunction3(){
+        var txt;
+        if(confirm("Money will be deducted from your account")){
+            alert("You have succefully paid the fees");
+        }
+        else{
+            alert("You have cancelled the payment");
+        }
+    }
+</script>
+</form>
+</div>    
+</body>
+</html>
+
